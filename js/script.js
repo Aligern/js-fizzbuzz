@@ -1,10 +1,12 @@
-
 // we create from js a container into our HTML
 const boxsquare = document.createElement('div');
+// console.log(boxsquare);
 
+boxsquare.className = 'd-flex justify-content-center align-content-center gap-2';
+console.log(boxsquare)
 
 // we create a for loop that need to count untill 100
-for (let i = 0; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
     // if i is % for 15 the result must be a FizzBuzz
     if (i % 15 === 0) {
         console.log("fizzbuzz");
@@ -21,4 +23,3 @@ for (let i = 0; i < 100; i++) {
         console.log(i);
     }
 }
-
