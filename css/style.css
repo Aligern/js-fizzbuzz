@@ -1,5 +1,5 @@
 body {
-    background-color: chocolate;
+    background-color: lightgray;
 }
 
 #ls-container {
@@ -11,21 +11,22 @@ body {
 
 .box {
     background-color: cadetblue;
-    color: yellowgreen;
+    color: white;
     width: 90px;
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .fizz {
-    background-color: darkblue;
+    background-color: sandybrown;
 }
 
 .buzz {
-    background-color: darkorchid;
+    background-color: chocolate;
 }
 
 .fizzbuzz {
