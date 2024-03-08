@@ -16,17 +16,17 @@ for (let i = 1; i <= numBox; i++) {
     let num = 0;
     // if i is % for 15 the result must be a FizzBuzz
     if (i % 15 === 0) {
-        tmpHtml += `<div class="box fizzbuzz">${i + 1}</div>`;
+        tmpHtml += `<div class="box fizzbuzz">${i}</div>`;
         console.log("fizzbuzz");
     }
     // if i is % for 3 the result must be a Fizz
     else if (i % 3 === 0) {
-        tmpHtml += `<div class="box fizz">${i + 1}</div>`;
+        tmpHtml += `<div class="box fizz">${i}</div>`;
         console.log("fizz");
     }
     // if i is % for 5 the result must be a Buzz
     else if (i % 5 === 0) {
-        tmpHtml += `<div class="box buzz">${i + 1}</div>`;
+        tmpHtml += `<div class="box buzz">${i}</div>`;
         console.log("buzz");
     }
     else {
