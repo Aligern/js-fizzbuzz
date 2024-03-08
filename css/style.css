@@ -3,3 +3,25 @@
     margin: 0 auto;
 }
 
+.box {
+    background-color: cadetblue;
+    color: yellowgreen;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.fizz {
+    background-color: darkblue;
+}
+
+.buzz {
+    background-color: darkorchid;
+}
+
+.fizzbuzz {
+    background-color: black;
+}
