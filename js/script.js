@@ -11,8 +11,6 @@ boxsquare.setAttribute('id','ls-container');
 let numBox = 100;
 let tmpHtml = '';
 
-boxsquare.innerHTML = tmpHtml;
-
 // we create a for loop that need to count untill 100
 for (let i = 1; i <= numBox; i++) {
     let num = 0;
@@ -35,3 +33,7 @@ for (let i = 1; i <= numBox; i++) {
         console.log(i);
     }
 }
+
+boxsquare.innerHTML = tmpHtml;
+const container = document.querySelector('.container');
+container.append(boxsquare);
